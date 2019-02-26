@@ -5,12 +5,17 @@
     padding: $padding / 2;
 
     border: 1px solid $color;
-    border-radius: $border-radius;
+    border-radius: $form-border-radius;
 }
 
 @mixin button($font, $font-size, $color) {
     @include badge($font, $font-size, $color);
+    border-radius: $form-border-radius;
     padding: $padding / 2;
+
+    &:hover {
+        border-radius: $form-border-radius;
+    }
 }
 
 @mixin button-outline($font, $font-size, $color) {
@@ -25,7 +30,7 @@
     padding: $padding / 2;
 
     border: 1px solid $color;
-    border-radius: $border-radius;
+    border-radius: $form-border-radius;
 
     background-color: $bg-color;
 }
@@ -43,5 +48,5 @@
     height: $max-control-size;
 
     border: 1px solid $color;
-    border-radius: $border-radius;
+    border-radius: $form-border-radius;
 }

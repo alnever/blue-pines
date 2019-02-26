@@ -5,6 +5,15 @@
   width: $content_width;
   margin: auto;
   background-color: $white;
+
+  border: 1px solid $primary;
+  border-radius: $border-radius * 2;
+
+  margin-top: $padding * 2;
+  margin-bottom: $padding * 4;
+
+  overflow: hidden;
+
 } /* .container */
 
 .swtk-main {

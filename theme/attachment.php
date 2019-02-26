@@ -13,8 +13,8 @@
 
 
   <div class="swtk-container">
-    <?php get_template_part('nav'); ?>
     <div class="swtk-main">
+        <?php get_template_part('nav'); ?>
         <!-- header -->
         <header class="swtk-header" style="background-image:url( <?php header_image(); ?> );">
             <div class="swtk-header-logo">
