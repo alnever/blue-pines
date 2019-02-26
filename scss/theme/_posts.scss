@@ -8,6 +8,17 @@ article.swtk-post-index {
 
       max-height: 200px;
       overflow: hidden;
+
+      transform: scale(1);
+      transition: 1s ease;
+
+
+      &:hover {
+          transform: scale(1.05);
+          transition: 1s ease;
+          box-shadow: $padding/2 $padding/2 $padding/2 $light;
+      }
+
   }
 
   @include post-date(flex, 1) {
@@ -285,6 +296,17 @@ article.swtk-post-sticky {
       max-width: 50%;
       padding-right: $padding;
       float: right;
+
+      img {
+          transform: scale(1);
+          transition: 1s ease;
+
+          &:hover {
+              transform: scale(1.05);
+              transition: 1s ease;
+              box-shadow: $padding/4 $padding/4 $padding/2 $secondary;
+          }
+      }
   }
 
   @include post-date(flex, 1) {

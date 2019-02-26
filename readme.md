@@ -22,8 +22,9 @@ The theme created using SASS WordPress Kit
 * The theme was initially generated using the kit.
 * The structure of the base styles, variables and mixins was changed according the expirience of the recent using of the kit.
 * All necessary identifications where replaced.
+* Posts images animation was added.
 
 
-## Resources 
+## Resources
 
 SASS WordPress Theming Kit http://github.com/alnever/sass-wordpress-theming-kit

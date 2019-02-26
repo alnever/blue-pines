@@ -71,7 +71,9 @@
                         <article class="swtk-post-sticky" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                             <div class="swtk-post-image">
                                 <?php if (has_post_thumbnail()):  ?>
-                                    <img src="<?php esc_url( the_post_thumbnail_url() ); ?>" alt="">
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <img src="<?php esc_url( the_post_thumbnail_url() ); ?>" alt="">
+                                    </a>
                                 <?php endif; ?>
                             </div>
                             <!-- post text -->
@@ -126,7 +128,9 @@
                             <article class="swtk-post-index" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                 <div class="swtk-post-image">
                                     <?php if (has_post_thumbnail()):  ?>
-                                        <img src="<?php esc_url( the_post_thumbnail_url() ); ?>" alt="">
+                                        <a href="<?php echo get_permalink(); ?>">
+                                            <img src="<?php esc_url( the_post_thumbnail_url() ); ?>" alt="">
+                                        </a>
                                     <?php endif; ?>
                                 </div>
                                 <!-- post header -->

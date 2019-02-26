@@ -1681,7 +1681,13 @@ article.swtk-post-index {
     max-width: 100%;
     margin-bottom: 0.5em;
     max-height: 200px;
-    overflow: hidden; }
+    overflow: hidden;
+    transform: scale(1);
+    transition: 1s ease; }
+    article.swtk-post-index .swtk-post-image:hover {
+      transform: scale(1.05);
+      transition: 1s ease;
+      box-shadow: 0.5em 0.5em 0.5em #e5ecec; }
   article.swtk-post-index .swtk-post-date {
     display: flex;
     order: 1;
@@ -1927,6 +1933,15 @@ article.swtk-post-sticky {
     max-width: 50%;
     padding-right: 1em;
     float: right; }
+    .sticky .swtk-post-image img,
+    article.swtk-post-sticky .swtk-post-image img {
+      transform: scale(1);
+      transition: 1s ease; }
+      .sticky .swtk-post-image img:hover,
+      article.swtk-post-sticky .swtk-post-image img:hover {
+        transform: scale(1.05);
+        transition: 1s ease;
+        box-shadow: 0.25em 0.25em 0.5em #34675c; }
   .sticky .swtk-post-date,
   article.swtk-post-sticky .swtk-post-date {
     display: flex;

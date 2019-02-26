@@ -25,6 +25,7 @@ An answer to that question.
 * The theme was initially generated using the kit.
 * The structure of the base styles, variables and mixins was changed according the expirience of the recent using of the kit.
 * All necessary identifications where replaced.
+* Posts images animation was added.
 
 
 == Resources ==
