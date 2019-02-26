@@ -293,7 +293,7 @@ article.swtk-post-sticky {
 
 
   @include post-image(block, 0) {
-      max-width: 50%;
+      @include col-6();
       padding-right: $padding;
       float: right;
 

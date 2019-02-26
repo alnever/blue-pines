@@ -45,3 +45,9 @@
         color: $color;
     }
 }
+
+@mixin header-social-menu() {
+    .swtk-social-menu {
+        justify-self: flex-end;
+    }
+}

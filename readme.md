@@ -23,6 +23,7 @@ The theme created using SASS WordPress Kit
 * The structure of the base styles, variables and mixins was changed according the expirience of the recent using of the kit.
 * All necessary identifications where replaced.
 * Posts images animation was added.
+* Header structure was advanced: a place for social menu was reserved.
 
 
 ## Resources

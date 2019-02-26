@@ -240,11 +240,13 @@ code {
   width: 1024px;
   margin: auto;
   background-color: #ffffff;
-  border: 1px solid #324851;
-  border-radius: 1em;
-  margin-top: 2em;
-  margin-bottom: 4em;
   overflow: hidden; }
+  @media only screen and (min-width: 768px) {
+    .swtk-container {
+      border: 1px solid #324851;
+      border-radius: 1em;
+      margin-top: 2em;
+      margin-bottom: 4em; } }
 
 /* .container */
 .swtk-main {
@@ -289,6 +291,15 @@ header, .swtk-header {
     padding: 1em;
     max-width: 200px;
     max-height: 200px; }
+  header .swtk-social-menu, .swtk-header .swtk-social-menu {
+    justify-self: flex-end; }
+  header .swtk-header-text-block, .swtk-header .swtk-header-text-block {
+    position: relative; }
+    header .swtk-header-text-block .swtk-social-menu, .swtk-header .swtk-header-text-block .swtk-social-menu {
+      color: #ffffff;
+      position: absolute;
+      top: -3em;
+      right: -1em; }
 
 .swtk-content {
   display: flex;
@@ -529,6 +540,15 @@ a {
   a:active {
     color: #86ac41;
     text-decoration: none; }
+  a.swtk-light {
+    color: #86ac41;
+    text-decoration: none; }
+    a.swtk-light:hover {
+      color: #ffffff;
+      text-decoration: none; }
+    a.swtk-light:active {
+      color: #ffffff;
+      text-decoration: none; }
 
 nav.swtk-navbar {
   display: flex;
@@ -1930,9 +1950,15 @@ article.swtk-post-sticky {
   article.swtk-post-sticky .swtk-post-image {
     display: block;
     order: 0;
-    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding-right: 1em;
     float: right; }
+    @media only screen and (min-width: 768px) {
+      .sticky .swtk-post-image,
+      article.swtk-post-sticky .swtk-post-image {
+        width: 50%; } }
     .sticky .swtk-post-image img,
     article.swtk-post-sticky .swtk-post-image img {
       transform: scale(1);

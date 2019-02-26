@@ -1,3 +1,7 @@
 a {
   @include link($secondary, $accent, false);
+
+  &.swtk-light {
+      @include link($accent, $white, false);
+  }
 }

@@ -40,7 +40,7 @@
       </div>
   </div>
   <div class="swtk-footer-creditial">
-      SASS Wordpress Theming Kit, &copy; Alex Neverov, 2019. All rights reserved
+      Blue Pines WordPress Theme, &copy; <a href="mailto:al_naverov@live.ru" class="swtk-light">Alex Neverov</a>, 2019. All rights reserved
   </div>
 </footer>
 

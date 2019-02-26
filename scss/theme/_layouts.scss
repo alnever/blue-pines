@@ -6,11 +6,12 @@
   margin: auto;
   background-color: $white;
 
-  border: 1px solid $primary;
-  border-radius: $border-radius * 2;
-
-  margin-top: $padding * 2;
-  margin-bottom: $padding * 4;
+  @include media-break-up($medium) {
+      border: 1px solid $primary;
+      border-radius: $border-radius * 2;
+      margin-top: $padding * 2;
+      margin-bottom: $padding * 4;
+  }
 
   overflow: hidden;
 
@@ -32,6 +33,18 @@ header, .swtk-header {
   @include header-title($font-primary, $font-enorm, $white);
   @include header-text($font-secondary, $font-large, $white);
   @include header-logo(200px, 200px);
+  @include header-social-menu();
+
+  .swtk-header-text-block {
+      position: relative;
+
+      .swtk-social-menu {
+          color: $white;
+          position: absolute;
+          top: -$padding * 3;
+          right: -$padding;
+      }
+  }
 }
 
 .swtk-content {
