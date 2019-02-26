@@ -1,0 +1,124 @@
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+body {
+    margin: 0;
+    background-color: $light;
+    color: $dark;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.alignnone,
+a img.alignnone,
+.wp-caption.alignnone {
+    margin: $padding/2 $padding $padding 0;
+}
+
+.aligncenter,
+div.aligncenter,
+a img.aligncenter {
+    display: block;
+    margin: $padding/2 auto $padding/2 auto;
+}
+
+.alignright,
+div.alignright,
+a img.alignright,
+.wp-caption.alignright {
+    display: block;
+    float: right ;
+    margin: $padding/2 0 $padding $padding;
+}
+
+.alignleft,
+div.alignleft,
+a img.alignleft,
+.wp-caption.alignleft {
+    display: block;
+    float: left;
+    margin: $padding/2 $padding/2 $padding 0;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 100%; /* Image does not overflow the content area */
+    padding: $padding/2 $padding/2 $padding $padding/2;
+    text-align: center;
+}
+
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-family: $font-primary;
+    font-size: $font-code;
+    color: $dark;
+    margin: 0;
+    padding: 0 $padding/2 $padding/2;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute  ;
+	width: 1px;
+	word-wrap: normal  ; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto  ;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: $padding/2 $padding/ $padding/2;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+pre {
+    overflow: scroll;
+}
+
+code {
+    overflow: scroll;
+}
+
+.gallery-caption {
+    margin: 0;
+}
+
+.bypostauthor {
+    color:$secondary;
+}

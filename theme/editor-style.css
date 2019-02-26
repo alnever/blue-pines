@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab");
+/* fonts */
+/* color sets */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
+body {
+  margin: 0;
+  background-color: #dfdce3;
+  color: #2c2c2d; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.alignnone,
+a img.alignnone,
+.wp-caption.alignnone {
+  margin: 0.5em 1em 1em 0; }
+
+.aligncenter,
+div.aligncenter,
+a img.aligncenter {
+  display: block;
+  margin: 0.5em auto 0.5em auto; }
+
+.alignright,
+div.alignright,
+a img.alignright,
+.wp-caption.alignright {
+  display: block;
+  float: right;
+  margin: 0.5em 0 1em 1em; }
+
+.alignleft,
+div.alignleft,
+a img.alignleft,
+.wp-caption.alignleft {
+  display: block;
+  float: left;
+  margin: 0.5em 0.5em 1em 0; }
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 100%;
+  /* Image does not overflow the content area */
+  padding: 0.5em 0.5em 1em 0.5em;
+  text-align: center; }
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: auto; }
+
+.wp-caption p.wp-caption-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #2c2c2d;
+  margin: 0;
+  padding: 0 0.5em 0.5em; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 0.5em 0.5;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
+
+pre {
+  overflow: scroll; }
+
+code {
+  overflow: scroll; }
+
+.gallery-caption {
+  margin: 0; }
+
+.bypostauthor {
+  color: #fc4a1a; }
+
+h1, .swtk-h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4abdac; }
+
+h2, .swtk-h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fc4a1a; }
+
+h3, .swtk-h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4abdac; }
+
+h4, .swtk-h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fc4a1a; }
+
+h5, .swtk-h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4abdac; }
+
+h6, .swtk-h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fc4a1a; }
+
+p, li {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  color: #2c2c2d; }
+
+code, pre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  color: #2c2c2d; }
+
+blockquote {
+  padding: 1em;
+  border-left: 1px solid #4abdac; }
+  blockquote * {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px; }
+  blockquote cite {
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    color: #4abdac; }
+
+a {
+  color: #4abdac;
+  text-decoration: none; }
+  a:hover {
+    color: #f76733;
+    text-decoration: none; }
+  a:active {
+    color: #f76733;
+    text-decoration: none; }
+
+table {
+  width: 100%;
+  border-collapse: collapse; }
+  table thead *, table tfoot * {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4abdac; }
+  table thead {
+    border-bottom: 1px solid #f76733; }
+  table tfoot {
+    border-top: 1px solid #f76733; }
+  table tr {
+    border-bottom: 1px solid #dfdce3; }
+  table td, table th {
+    padding: 0.5em; }

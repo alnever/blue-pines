@@ -1,0 +1,52 @@
+@mixin comments() {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .comment-form-comment {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@mixin comments-title() {
+    .swtk-comments-title {
+        @content;
+    }
+}
+
+@mixin comments-list() {
+    .swtk-comments-list {
+        @content;
+    }
+}
+
+@mixin comment() {
+    .comment {
+        @content;
+    }
+}
+
+@mixin comment-body() {
+    .comment-body {
+        @content;
+    }
+}
+
+@mixin comment-author() {
+    .comment-author {
+        @content;
+    }
+}
+
+@mixin comment-meta() {
+    .comment-meta {
+        @content;
+    }
+}
+
+@mixin comment-reply() {
+    .reply {
+        @content;
+    }
+}

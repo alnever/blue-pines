@@ -1,0 +1,109 @@
+nav.swtk-navbar {
+  @include horizontal-menu($font-primary, $font-smaller, $white, $white, $secondary);
+  .swtk-brand {
+      white-space: nowrap;
+      &:hover {
+          background-color: $accent;
+          font-weight: bold;
+      }
+  }
+  .swtk-toggle {
+      @include badge-outline($font-primary, $font-small, $white);
+
+      &:hover {
+          color: $white;
+          border: 1px solid $white;
+          font-weight: bold;
+          background-color: $accent;
+      }
+  }
+
+  li {
+    &:hover {
+        background-color: $accent;
+        font-weight: bold;
+    }
+  }
+}
+
+.swtk-vertical-sidebar .menu,
+.swtk-vertical-menu,
+.swtk-vertical-sidebar div[class^='menu'] {
+    @include vertical-menu($font-primary, $font-regular, $primary, $secondary, none);
+}
+
+.swtk-horizontal-sidebar div[class^='menu'] {
+    @include horizontal-sidebar-menu($font-primary, $font-smaller, $primary, $secondary, none);
+}
+
+div.swtk-pagination {
+    @include pagination();
+    padding: $padding 0 0 $padding;
+    width: 100%;
+
+    border-top: 1px solid $accent;
+
+
+    a {
+        color: $secondary;
+        &:hover {
+            color: $accent;
+        }
+    }
+
+    span.current {
+        color: $dark;
+    }
+
+    a, span.current {
+        font-family: $font-primary;
+        font-size: $font-regular;
+        padding: 0 $padding * 2 0 0;
+    }
+
+    & > .navigation.pagination {
+        padding-left: $padding;
+    }
+}
+
+div.swtk-comments-pagination {
+    @include pagination();
+    padding: $padding 0 0 0;
+    width: 100%;
+
+
+    border-top: 1px solid $accent;
+
+    a {
+        color: $secondary;
+        &:hover {
+            color: $accent;
+        }
+    }
+
+    span.current {
+        color: $dark;
+    }
+
+    a, span.current {
+        font-family: $font-primary;
+        font-size: $font-regular;
+        padding: 0 0 0 $padding * 2;
+    }
+}
+
+.swtk-posts-navigation {
+    @include pagination();
+    justify-content: space-between;
+    padding: $padding;
+    font-family: $font-primary;
+    font-size: $font-code;
+
+    a:first-child:before {
+        content: '<<';
+    }
+
+    a:last-child:after {
+        content: '>>';
+    }
+}
