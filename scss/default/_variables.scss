@@ -34,11 +34,13 @@ $theme-font-sizes: (
 );
 // colors
 
-$primary: #4abdac;
-$secondary: #fc4a1a;
-$light: #dfdce3;
-$dark: #2c2c2d;
-$accent: #f76733;
+$primary: #324851;
+$secondary: #34675c;
+$accent: #86ac41;
+$hover: #7da3a1;
+$light: #e5ecec;
+$dark: #141c20;
+
 $white: #ffffff;
 $black: #000000;
 
@@ -48,7 +50,8 @@ $theme-colors: (
     secondary: $secondary,
     light: $light,
     dark: $dark,
-    accent: $accent
+    accent: $accent,
+    hover: $hover
 );
 
 // paddings

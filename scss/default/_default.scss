@@ -9,7 +9,6 @@
 body {
     margin: 0;
     background-color: $light;
-    color: $dark;
 }
 
 img {
@@ -69,7 +68,7 @@ a img.alignleft,
 .wp-caption p.wp-caption-text {
     font-family: $font-primary;
     font-size: $font-code;
-    color: $dark;
+    color: $primary;
     margin: 0;
     padding: 0 $padding/2 $padding/2;
 }
@@ -89,10 +88,10 @@ a img.alignleft,
 }
 
 .screen-reader-text:focus {
-	background-color: #eee;
+	background-color: $light;
 	clip: auto  ;
 	clip-path: none;
-	color: #444;
+	color: $secondary;
 	display: block;
 	font-size: 1em;
 	height: auto;
