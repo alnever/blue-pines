@@ -29,3 +29,4 @@ The theme created using SASS WordPress Kit
 ## Resources
 
 SASS WordPress Theming Kit http://github.com/alnever/sass-wordpress-theming-kit
+Icons are from the free icon set https://linearicons.com/free
