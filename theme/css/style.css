@@ -668,11 +668,8 @@ nav.swtk-navbar {
                   nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.page_item_has_children ul.children,
                   nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.page_item_has_children ul.sub-menu, nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.menu-item-has-children ul.children,
                   nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.menu-item-has-children ul.sub-menu {
-                    position: absolute; } }
-                @media only screen and (min-width: 768px) {
-                  nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.page_item_has_children ul.children,
-                  nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.page_item_has_children ul.sub-menu, nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.menu-item-has-children ul.children,
-                  nav.swtk-navbar > .swtk-collapsed > div.swtk-nav > div > ul > li.menu-item-has-children ul.sub-menu {
+                    position: absolute;
+                    z-index: 10;
                     min-width: 300px;
                     border: 1px solid #12453a;
                     border-radius: 0.5em; } }

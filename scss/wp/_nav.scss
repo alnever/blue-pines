@@ -119,9 +119,6 @@
               /* submenu */
               ul.children,
               ul.sub-menu {
-                  @include media-break-up($medium) {
-                        position: absolute;
-                  }
                 display: none;
                 flex-direction: column;
                 padding-left: 0;
@@ -129,6 +126,8 @@
                 background-color: $bg-color;
 
                 @include media-break-up($medium) {
+                    position: absolute;
+                    z-index: 10;
                     min-width: 300px;
                     border: 1px solid adjust-color($bg-color, -34, -34, -34);
                     border-radius: $border-radius;
